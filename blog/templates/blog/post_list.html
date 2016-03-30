@@ -1,26 +1,27 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Endemia</title>
-</head>
-<body>
-	<p>Endemia em Foco!</p>
-	<p>TADS 2013</p>
+{% extends 'blog/base.html' %}
+{% block content %}
+
+
 <div>
-            <h1><a href="">Django Girls Blog</a></h1>
+
+    <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo tilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um ivro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração rônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração letrônica como Aldus PageMaker.</p>
+
+</div>
+<div class="content container">
+    <div class="row">
+        <div class="col-md-8">
+            {% for post in posts %}
+                <div class="post">
+                    <div class="date">
+                        {{ post.published_date }}
+                    </div>
+                    <h1><a href="{% url 'blog.views.post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+                    <p>{{ post.text|linebreaks }}</p>
+                </div>
+            {% endfor %}
         </div>
-	
-    <div>
-    	{% for post in posts %}
-    <div>
-        <p>published: {{ post.published_date }}</p>
-        <h1><a href="">{{ post.title }}</a></h1>
-        <p>{{ post.text|linebreaks }}</p>
     </div>
-{% endfor %}
-    </div>
-
+</div>	
     
+{% endblock content %}
 
-</body>
-</html>
