@@ -1,4 +1,5 @@
 from django.conf.urls import include, url
+from .models import Post
 from . import views
 
 
