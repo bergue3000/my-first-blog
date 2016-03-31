@@ -1,12 +1,12 @@
 h1 a{
-	color: #FCA205;
+	color: #1E90FF;
 	font-family: 'Lobster';
 }
 body {
 	padding-left: 1em;
 }
 .cabecalho {
-    background-color: #ff9400;
+    background-color: #1E90FF;
     margin-top: 0;
     padding: 1em 1em 1em 2em;
 }
@@ -14,10 +14,12 @@ body {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    text-shadow: #000 2px 2px 2px;
 }
 
 .content {
-    margin-left: 40px;
+	margin-left: 0em;
+	text-shadow: #999 1px 2px 2px;
 }
 
 h1, h2, h4 {
@@ -42,6 +44,7 @@ h1, h2, h4 {
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+    text-shadow: #000 2px 2px 2px;
 }
 
 .post {
