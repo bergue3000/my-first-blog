@@ -1,4 +1,5 @@
 h1 a{
+
 	color: #1E90FF;
 	font-family: 'Lobster';
 }
@@ -32,6 +33,7 @@ h1, h2, h4 {
     font-family: 'Lobster', cursive;
 }
 h2{
+    
     margin-left: 3%;
 }
 
@@ -57,32 +59,26 @@ h2{
 }
 
 .post {
-<<<<<<< HEAD
-    
+   
     margin-bottom: 0.2em;
     border: double;
     border-color: #394DB2;
     background-color: #E8E8E8;
     height: 150px;
     overflow:auto;
-=======
-    margin-bottom: 3em;
-    border: double;
-    border-color: #394DB2;
->>>>>>> 01f36cbe3db45879e2d49081f4e45d36072c72ee
+
 }
 
 .post h1 a, .post h1 a:visited {
-
-    color: #000000;
-<<<<<<< HEAD
+    
+    color: #0000CD;
+    
     text-align: center;
-=======
 
->>>>>>> 01f36cbe3db45879e2d49081f4e45d36072c72ee
 }
 h3 {
-	margin-top: 0;
+    
+    margin-top: 0;
 	margin-left: 1em;
 }
 h4{
@@ -97,22 +93,16 @@ h4{
 }
 .instrucao p{
     color: red;
-<<<<<<< HEAD
-=======
-    e
->>>>>>> 01f36cbe3db45879e2d49081f4e45d36072c72ee
+
     margin-left: 2%;
     margin-top: 1%;
 }
 .mosquito {
     float: right;
-<<<<<<< HEAD
-   
     margin-top: 10%;
-=======
     margin-right: 0.1%;
     margin-top: 2%;
->>>>>>> 01f36cbe3db45879e2d49081f4e45d36072c72ee
+
 }
 
 /*News Letter*/

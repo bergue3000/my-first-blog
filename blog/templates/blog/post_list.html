@@ -2,12 +2,12 @@
 {% block content %}
 {% load staticfiles %}
 <div class="cabinst" align="center"><h2> Instrução de Postagem de denuncias de focos endemicos </h2></div>
-<div class="instrucao" ><h4><p>Para efetuar novas denuncias e exigido o login como colaborador(a) para evitar usuarios falsos.<br>1º Clique no desenho do cadeado na parte superior direita da tela e digite<br>Usuario: colaborador<br>Senha:endemiaemfoco<br> agora clique no botão login e pronto agora e só clicar no sinal de soma que apareceu na parte superior direita da tela e fazer sua denuncia. </p></h4></div>
+<div class="instrucao" align="justyfi"><h4><p>Para efetuar novas denuncias e exigido o login como colaborador(a) para evitar usuarios falsos.<br>1º Clique no desenho do cadeado na parte superior direita da tela e digite<br>Usuario: colaborador<br>Senha:endemiaemfoco<br> agora clique no botão login e pronto agora e só clicar no sinal de soma que apareceu na parte superior direita da tela e fazer sua denuncia. </p></h4></div>
 <div class="content container">
     <div class="row">
         <div class="col-md-8">
             {% for post in posts %}
-                <div class="post">
+                <div class="post" align="justify">
                     <div class="date">
                         {{ post.published_date }}
                     </div>
