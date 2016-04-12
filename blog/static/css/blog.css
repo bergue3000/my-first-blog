@@ -1,12 +1,20 @@
 h1 a{
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> a210fa3066c15eb6c2b35c0c2dc852b980599a47
 	color: #1E90FF;
 	font-family: 'Lobster';
 }
 body {
     background-color: #FFFFFF;
 	/*padding-left: 2em;*/
+<<<<<<< HEAD
     margin: 2em 15%;
+=======
+    margin: 2em 10%;
+>>>>>>> a210fa3066c15eb6c2b35c0c2dc852b980599a47
 }
 .cabecalho {
     background-color: #1E90FF;
@@ -16,7 +24,11 @@ body {
     border: double;
 }
 .cabecalho h1, .cabecalho h1 a, .cabecalho h1 a:visited, .cabecalho h1 a:active {
+<<<<<<< HEAD
     color: #FFFFFF;
+=======
+    color: #ffffff;
+>>>>>>> a210fa3066c15eb6c2b35c0c2dc852b980599a47
     font-size: 2em;
     text-decoration: none;
     text-shadow: #000 2px 2px 2px;
@@ -25,7 +37,10 @@ body {
 }
 
 .content {
+<<<<<<< HEAD
     float: left;
+=======
+>>>>>>> a210fa3066c15eb6c2b35c0c2dc852b980599a47
     color: #000000;
 	margin-left: 0em;
     
@@ -34,11 +49,19 @@ body {
 
 h1, h2, h4 {
     margin-top: 0;
+<<<<<<< HEAD
     
     width: 100%;
 }
 h2{
     text-shadow: #999 1px 2px 2px;
+    margin-left: 3%;
+=======
+    font-family: 'Lobster', cursive;
+>>>>>>> a210fa3066c15eb6c2b35c0c2dc852b980599a47
+}
+h2{
+    
     margin-left: 3%;
 }
 
@@ -64,24 +87,48 @@ width: 100%;
 }
 
 .post {
+<<<<<<< HEAD
     margin-top: 0.2em;
+=======
+   
+>>>>>>> a210fa3066c15eb6c2b35c0c2dc852b980599a47
     margin-bottom: 0.2em;
     border: double;
     border-color: #394DB2;
     background-color: #E8E8E8;
+<<<<<<< HEAD
     
 }
 .post h1 a:visited {
     color: #0000CD;
     text-align: center;
     
+=======
+    height: 150px;
+    overflow:auto;
+
+}
+
+.post h1 a, .post h1 a:visited {
+    
+    color: #0000CD;
+    
+    text-align: center;
+
+>>>>>>> a210fa3066c15eb6c2b35c0c2dc852b980599a47
 }
 h3 {
     
     margin-top: 0;
 	margin-left: 1em;
 }
+<<<<<<< HEAD
 
+=======
+h4{
+    margin-left: 5%;
+}
+>>>>>>> a210fa3066c15eb6c2b35c0c2dc852b980599a47
 h4{
     margin-left: 5%;
 }
@@ -91,12 +138,17 @@ h4{
 }
 .instrucao p{
     color: red;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> a210fa3066c15eb6c2b35c0c2dc852b980599a47
     margin-left: 2%;
     margin-top: 1%;
     width: 50%;
 }
 .mosquito {
+<<<<<<< HEAD
     position: fixed;
     top: 5%;
     left: 0%;
@@ -114,6 +166,12 @@ h4{
     margin-top: 20%;
     margin-right: 0.1%;*/
     
+=======
+    float: right;
+    margin-top: 10%;
+    margin-right: 0.1%;
+    margin-top: 2%;
+>>>>>>> a210fa3066c15eb6c2b35c0c2dc852b980599a47
 
 }
 .mosquito3 {

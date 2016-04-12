@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 </head>
 <body>
     
@@ -25,13 +21,10 @@
     {% endif %}
     <h1><a href="{% url 'blog.views.post_list' %}">Endemia em Foco</a></h1>
     
-<<<<<<< HEAD
-=======
     <img class="mosquito" float src="{% static "media/contradengue.jpg"%}" width="25%" height="25%" />
->>>>>>> a210fa3066c15eb6c2b35c0c2dc852b980599a47
     </div>
-    <!--<div class="youtube"><iframe src="https://www.youtube.com/embed/qfGAYEbGv68" frameborder="0" allowfullscreen></iframe></div>
-    <div class="content">-->
+
+    <div class="content">
         <div class="row">
             <div class="col-md-8">
             {% block content %}
@@ -39,24 +32,6 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-    <img src="{% static "media/contradengue.jpg"%}" width="15%" height="20%" class="mosquito">
-    <img src="{% static "media/xodengue.jpg"%}" width="15%" height="20%" class="mosquito2">
-    <img src="{% static "media/denguemata.jpg"%}" width="15%" height="20%" class="mosquito3">
-    <img src="{% static "media/aeds.png"%}" width="15%" height="20%" class="mosquito4">
-    <img src="{% static "media/cuidadoDengue.jpg"%}" width="15%" height="90%" class="noticia1">
-    
-    <!--<div class="slides">    
-        <ul>
-            <li><img src="{% static "media/contradengue.jpg"%}" width="30%" height="30%"></li>
-            <li><img src="{% static "media/xodengue.jpg"%}" width="30%" height="30%"></li>
-            <li><img src="{% static "media/denguemata.jpg"%}" width="30%" height="30%"}"></li>
-            <li><img src="{% static "media/aeds.png"%}" width="30%" height="30%"></li>
-        </ul>
-    </div>-->
-=======
->>>>>>> a210fa3066c15eb6c2b35c0c2dc852b980599a47
-    
     <!--<script type="text/javascript" src="{% static "js/animacao.js" %}"></script>-->
     <script type='text/javascript' 
 src='http://hackerativismo.github.io/viral-aedes-aegypti/aedes.js'>
