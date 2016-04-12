@@ -13,20 +13,22 @@ body {
     margin-top: 0;
     padding: 1em 1em 1em 2em;
     margin-right: 0.1em;
-
+    border: double;
 }
 .cabecalho h1, .cabecalho h1 a, .cabecalho h1 a:visited, .cabecalho h1 a:active {
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: 2em;
     text-decoration: none;
     text-shadow: #000 2px 2px 2px;
+
+    /*text-shadow: 1px 0px 0px red, -1px 0px 0px red, 0px 1px 0px red, 0px -1px 0px red; font-size: 200%; font-weight: bold; color: #90EE90;*/
 }
 
 .content {
     float: left;
     color: #000000;
 	margin-left: 0em;
-
+    
 	/*text-shadow: #999 1px 2px 2px;*/
 }
 
@@ -48,9 +50,9 @@ h2{
 .save {
     float: right;
 }
-
+   
 .post-form textarea, .post-form input {
-    width: 100%;
+width: 100%;    
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
@@ -62,16 +64,14 @@ h2{
 }
 
 .post {
-   
+    margin-top: 0.2em;
     margin-bottom: 0.2em;
     border: double;
     border-color: #394DB2;
     background-color: #E8E8E8;
-    width: 100%;
     
 }
-
-.post h1 a, .post h1 a:visited {
+.post h1 a:visited {
     color: #0000CD;
     text-align: center;
     
@@ -81,22 +81,20 @@ h3 {
     margin-top: 0;
 	margin-left: 1em;
 }
-h4{
-    margin-left: 5%;
-}
+
 h4{
     margin-left: 5%;
 }
 .cabinst {
     color: red;
-    
+    top:5%;
 }
 .instrucao p{
     color: red;
     
     margin-left: 2%;
     margin-top: 1%;
-    width: 90%;
+    width: 50%;
 }
 .mosquito {
     position: fixed;
@@ -135,12 +133,31 @@ h4{
     /*float: right;
     margin-top: 20%;
     margin-right: 0.1%;*/
-    
+}
 
+.noticia1 {
+    position: fixed;
+    top: 5%;
+    right: 0%;
+    /*float: right;
+    margin-top: 20%;
+    margin-right: 0.1%;*/
+/*.embed-container { 
+ position: relative; 
+ padding-bottom: 56.25%; 
+ height: 0; 
+ overflow: hidden; 
+ max-width: 100%; 
+ height: auto; 
+ 
+} */
+.youtube {
+ position: fixed; 
+ top: 15%; 
+ right: 0;
 }
-.box_carrossel{
-    margin-top: 10%;
-}
+
+
 
 /*News Letter*/
 .newsletter{width: 100%; float: left; background-color: #111; padding: 10px 5%;}
@@ -151,4 +168,3 @@ h4{
 /*rodape*/
 .rodape {width: 100%; float: left; background-color: #49b4f1; padding: 10px 8%}
 .rodape p {color: #fff}
-
